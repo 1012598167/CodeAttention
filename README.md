@@ -14,17 +14,10 @@ More details are provided in our EMNLP22 paper and our arXiv paper [CAT-probing:
 
 ## Environment
 
-**to be continued requirements**
-
-**add coauthor github**
-
 ```bash
 conda create --name cat python=3.7
 conda activate cat
-pip install transformers==4.1.1
-pip install pytorch=1.5.1
-pip install datasets
-pip install sklearn
+pip install -r requirements.txt
 git clone https://github.com/nchen909/CodeAttention
 cd CodeAttention
 ```
@@ -33,7 +26,7 @@ cd CodeAttention
 
 ### Preparing Data
 
-The dataset we use comes from [CodeSearchNet](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Text/code-to-text) and you can download from [google drive link].**to be continued**
+The dataset we use comes from [CodeSearchNet](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Text/code-to-text) and you can download from [Google Drive](https://drive.google.com/drive/folders/1acPGFpw8uJMCdAj7iXkd-_Vq0LjNkaW3?usp=sharing), and add data to ./data.
 
 ## Citation
 
@@ -42,6 +35,7 @@ The dataset we use comes from [CodeSearchNet](https://github.com/microsoft/CodeX
 ## Train
 
 ```bash
+# first modify WORKDIR in run.sh to yours 
 export MODEL_NAME=
 export TASK="summarize"
 export SUB_TASK=
@@ -55,6 +49,7 @@ bash run.sh $MODEL_NAME $TASK $SUB_TASK
 ## Probing
 
 ```bash
+# first modify WORKDIR in run_att.sh to yours 
 export MODEL_NAME=
 export TASK="summarize"
 export SUB_TASK=

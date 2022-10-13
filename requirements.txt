@@ -1,0 +1,7 @@
+transformers==4.1.1
+torch==1.5.1
+tensorboard
+datasets
+networkx
+tree_sitter
+sklearn
