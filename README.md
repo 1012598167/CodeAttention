@@ -2,6 +2,7 @@
 
 ## Updates
 
+- 2022/10/12: Our code is available. :yum:
 - 2022/10/06: Release the paper of CAT-probing, check out our [paper](https://arxiv.org/abs/2210.04633). 👏
 - 2022/10/06: CAT-probing is accepted by **Findings of EMNLP 2022** 🎉
 
@@ -72,13 +73,17 @@ bash run_att.sh $MODEL_NAME $TASK $SUB_TASK $LAYER_NUM
 Visualization results can be found in `att-vis-notebook` folder.
 
 
-If you use this code or UniXcoder, please consider citing us.👇
+
+## Citation
+
+
+Please consider citing us if you find this repository useful.👇
 
 ```
-@article{TBD,
+@inproceedings{chen2022cat,
   title={CAT-probing: A Metric-based Approach to Interpret How Pre-trained Models for Programming Language Attend Code Structure},
   author={Chen, Nuo and Sun, Qiushi and Zhu, Renyu and Xiang, Li and Xuesong, Lu and Ming, Gao},
-  journal={arXiv preprint arXiv:TBD},
+  booktitle = {Proceedings of {EMNLP}},
   year={2022}
 }
 ```
