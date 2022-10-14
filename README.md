@@ -75,7 +75,7 @@ Please consider citing us if you find this repository useful.👇
 ```bibtex
 @inproceedings{chen2022cat,
   title={CAT-probing: A Metric-based Approach to Interpret How Pre-trained Models for Programming Language Attend Code Structure},
-  author={Chen, Nuo and Sun, Qiushi and Zhu, Renyu and Xiang, Li and Xuesong, Lu and Ming, Gao},
+  author={Chen, Nuo and Sun, Qiushi and Zhu, Renyu and Li, Xiang and Lu, Xuesong and Gao, Ming},
   booktitle = {Proceedings of {EMNLP}},
   year={2022}
 }
